@@ -1,0 +1,40 @@
+class Calculater
+{
+      int first;
+      int second;
+	  
+	  
+	  int sumResult;
+	  int subResult;
+	  int mulResult;
+	  int remResult;
+	  
+	  
+	  double divResult;
+	  calculater()
+	  {
+	  }
+	  
+	  calculater(int a,int b)
+	  {
+	       first=a;
+		   sencond=b;
+	  }
+	  
+	  public void performAdd()
+		{
+		    sumResult= first+second;
+		}
+}
+class calculaterManager
+{
+  public static void main(String[] args)
+  {
+  calculater c1=new calculater(10,5);
+  c1.performAdd();
+  c1.displaySum();
+  
+  
+  
+  }
+}
